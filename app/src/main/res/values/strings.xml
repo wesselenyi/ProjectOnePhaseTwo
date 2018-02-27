@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectOnePhaseTwo</string>
+    <string name="appTitle">An italian coffee house in Budapest</string>
+    <string name="descPicManetti">background picture</string>
+    <string name="address">Budapest, Madarász Viktor u. 1/C</string>
+    <string name="websiteLink">www.manetti-espresso.hu</string>
+    <string name="phoneNumber">+36 (30) 629 7102</string>
+</resources>

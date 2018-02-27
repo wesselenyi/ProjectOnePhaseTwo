@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coffeeHouseBgd"
+    android:orientation="vertical"
+    tools:context="com.example.android.projectonephasetwo.MainActivity">
+
+    <ImageView
+
+        android:id="@+id/picMain"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_weight="3"
+        android:contentDescription="@string/descPicManetti"
+        android:scaleType="centerCrop"
+        android:src="@drawable/manetti" />
+
+
+    <TextView
+        android:id="@+id/titleLine"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:scrollHorizontally="false"
+        android:text="@string/appTitle"
+        android:textAlignment="center"
+        android:textColor="#FAFAFA"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/locationTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/placeholderNew"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:singleLine="true"
+        android:text="@string/address"
+        android:textColor="@color/txtColor"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/websiteTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:autoLink="web"
+        android:drawableLeft="@drawable/worldwideNeww"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:text="@string/websiteLink"
+        android:textColor="@color/txtColor"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/phoneNmbr"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/telephoneNew"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:text="@string/phoneNumber"
+        android:textColor="@color/txtColor"
+        android:textSize="16sp" />
+
+    <!--    Icons made by http://www.freepik.com" from "https://www.flaticon.com/"is licensed by
+    http://creativecommons.org/licenses/by/3.0/" "Creative Commons BY 3.0"
+   -->
+</LinearLayout>
