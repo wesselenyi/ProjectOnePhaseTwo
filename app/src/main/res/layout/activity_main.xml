@@ -27,7 +27,7 @@
         android:paddingLeft="16dp"
         android:text="@string/appTitle"
         android:textAlignment="center"
-        android:textColor="#FAFAFA"
+        android:textColor="@color/txtColor"
         android:textSize="22sp" />
 
 
