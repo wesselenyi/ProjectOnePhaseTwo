@@ -1,82 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/coffeeHouseBgd"
-    android:orientation="vertical"
-    tools:context="com.example.android.projectonephasetwo.MainActivity">
+    android:layout_height="match_parent">
 
-    <ImageView
-
-        android:id="@+id/picMain"
-        android:layout_width="wrap_content"
-        android:layout_height="400dp"
-        android:layout_weight="3"
-        android:contentDescription="@string/descPicManetti"
-        android:scaleType="centerCrop"
-        android:src="@drawable/manetti" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/coffeeHouseBgd"
+        android:orientation="vertical"
+        tools:context="com.example.android.projectonephasetwo.MainActivity">
 
 
-    <TextView
-        android:id="@+id/titleLine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:paddingLeft="16dp"
-        android:text="@string/appTitle"
-        android:textAlignment="center"
-        android:textColor="@color/txtColor"
-        android:textSize="22sp" />
+        <ImageView
+            android:id="@+id/picMain"
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:layout_weight="3"
+            android:contentDescription="@string/descPicManetti"
+            android:scaleType="centerCrop"
+            android:src="@drawable/manetti" />
 
 
-    <TextView
-        android:id="@+id/locationTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="50sp"
-        android:drawableLeft="@drawable/ic_placeholder"
-        android:drawablePadding="8dp"
-        android:gravity="center"
-        android:paddingLeft="16dp"
-        android:paddingTop="8dp"
-        android:singleLine="true"
-        android:text="@string/address"
-        android:textColor="@color/txtColor"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/titleLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:paddingLeft="16dp"
+            android:text="@string/appTitle"
+            android:textAlignment="center"
+            android:textColor="@color/txtColor"
+            android:textSize="22sp" />
 
 
-    <TextView
-        android:id="@+id/websiteTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:autoLink="web"
-        android:drawableLeft="@drawable/ic_worldwide"
-        android:drawablePadding="8dp"
-        android:gravity="center"
-        android:paddingLeft="16dp"
-        android:paddingTop="8dp"
-        android:text="@string/websiteLink"
-        android:textColor="@color/txtColor"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/locationTxt"
+            style="@style/MainScreenText"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:drawableLeft="@drawable/ic_placeholder"
+            android:singleLine="true"
+            android:text="@string/address" />
 
 
-    <TextView
-        android:id="@+id/phoneNmbr"
-        android:layout_width="wrap_content"
-        android:layout_height="34dp"
-        android:layout_marginBottom="24dp"
-        android:autoLink="phone"
-        android:drawableLeft="@drawable/ic_telephone"
-        android:drawablePadding="8dp"
-        android:gravity="center"
-        android:paddingLeft="16dp"
-        android:paddingTop="8dp"
-        android:text="@string/phoneNumber"
-        android:textColor="@color/txtColor"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/websiteTxt"
+            style="@style/MainScreenText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_worldwide"
+            android:text="@string/websiteLink" />
 
-    <!--    Icons made by http://www.freepik.com" from "https://www.flaticon.com/"is licensed by
-    http://creativecommons.org/licenses/by/3.0/" "Creative Commons BY 3.0"
-   -->
-</LinearLayout>
+
+        <TextView
+            android:id="@+id/phoneNmbr"
+            style="@style/MainScreenText"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginBottom="24dp"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_telephone"
+            android:text="@string/phoneNumber" />
+
+        <!--    Icons made by http://www.freepik.com" from "https://www.flaticon.com/"is licensed by
+        http://creativecommons.org/licenses/by/3.0/" "Creative Commons BY 3.0"
+       -->
+    </LinearLayout>
+</ScrollView>
